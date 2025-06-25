@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project1.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.10.1/mathjs.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <form id="myform">
+    <h1 id="sos">Form Validation</h1>
+    <div class="form-control">
+    <label for="Name">Enter your name</label><br><br>
+    <input type="text"  id="name"><br><br>
+    <small>Error message</small>
+    </div>
+    <div class="form-control">
+    <label for="DateofBirth">Enter your Date of Birth</label><br><br>
+    <input type="date" id="sol"><br><br>
+     <small>Error message</small>
+     </div>
+    <div class="form-control">
+    <label for="Gender">Choose your gender</label><br><br>
+    <label for="male" >Male</label>
+    <input type="radio" name="gender"><br><br>
+    <label for="female" >Female</label>
+    <input type="radio" name="gender"><br><br>
+    <label for="other" >Other</label>
+    <input type="radio" name="gender"><br><br>
+    <small>Error message</small>
+    </div>
+    <div class="form-control">
+    <label for="phonenbr">Enter your phone number</label><br><br>
+    <input type="number"  id="phone"><br><br>
+     <small class="error"></small>
+     </div>
+      <div class="form-control">
+    <label for="email">Enter your email Id</label><br><br>
+    <input type="email"  id="email"><br><br>
+    <small class="error"></small>
+    </div>
+     <div class="form-control">
+    <label for="username" >Enter the Username</label><br><br>
+    <input type="text"  id="username"><br><br>
+    <small>Error message</small>
+    </div>
+     <div class="form-control">
+    <label for="password">Enter your password</label><br><br>
+    <input type="password" size="40px" id="password"><br><br>
+    <small>Error message</small>
+    </div>
+    <div class="form-control">
+    <label for="confirmPassword">Confirm Password</label><br><br>
+    <input type="password" id="confirmpassword"><br><br>
+    <small class>Error message</small>
+    </div>
+    <button type="submit">Submit</button>
+     </form>
+      <script src="project1.js" defer></script>
+</body>
+</html>
